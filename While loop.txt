@@ -1,0 +1,73 @@
+While loop::
+
+
+1.Explain the working of while loop?
+
+   While loop:
+         
+         ==>While loop is one of the looping Statements it can be use to perform unknown no of iteration.
+         ==>It case of while loop we don't have to specify end point .
+
+             ==>Following Syntax for while loop.
+                 
+                  while (Expression/Condition)
+                         
+                      {
+                             -------     //Java Statements
+                             ------     
+                      }
+
+                                   
+                               
+ 2.Explain the use of do while loop?
+      
+              ==>Do-While Loop is one of the looping Statement which can be use to perform unknown number of iteration.
+              
+              ==>It is exactly similar to while loop only difference is that  while loop perform the iteration only if 
+                 condition is true whereas do-while loop will check the conditions after also performing.
+              
+             /*==>Following syntax For do while ::
+                      
+                         do
+                           { 
+                                    ---------    //Java Statement
+                                    ---------
+                            }while(exp) */
+
+3.Explain Switch Case?
+                 
+             ==>Switch Statement is one of the decision making statement.
+             ==>It can be use to apply condition or restriction on Java Statement.
+             ==>Switch Statement will execute specific state of java statement based on given choice.
+
+             ==>Following Syntax for Switch Case:-
+               
+                  /*switch(Expression)
+                       {
+                             case1:
+                                    -----
+                                    -----
+                                    -----
+                                    break;
+                         
+                              case2:
+                                     
+                                      ----
+                                      ----
+                                      ----
+                                      break;
+                                
+                                default:
+                        
+                        }*/
+
+
+4.Explain Differences between break and continue?
+
+
+                   ==>Break Statement can be used to exprecitly stop iterations whereas Continue Statement  can be used to specify iteration.
+                   ==>We can use break and continue Statement anywhere inside the for loop, While loop, do-while loop, if else or which Statements. 
+
+             
+
+                    

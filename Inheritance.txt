@@ -1,0 +1,103 @@
+Inheritance::
+
+1)What is Inheritance?
+
+       ==>If one Class Accquires the properties of another object It's known as inheritance.
+       
+       ==>The Class which Accquires the properties of another class is known as sub-class.
+      
+       ==>The Class From Which Properties are going to inheritance is known as super class.
+       
+       ==>Inheritance Possible by Using Extends Keywords.
+       
+       ==>Sun class can access only non-static member of super class.
+
+2)Explain Types of inheritance?
+
+1)Single Level Inheritance
+       
+        ==>One Subclass acquires the properties only one superclass then It's Known Single Inheritance.
+  
+        Block Diagram::
+                       
+    (super class)
+     +---------+
+     | Class A |
+     +---------+
+          |
+          |-------->extend keyword
+          v
+     +---------+
+     | Class B |
+     +---------+
+     (sub class)           
+                
+   
+
+   
+
+2)Multilevel Inheritance
+          
+          ==>If one Subclass Accquires the Properties of one super class and that super class acquires the properties of it's Super class then it's knpwn as multilevel      Inheritance.
+
+        Block Diagram::
+          
+     +---------+
+     | Class A |(Super class)
+     +---------+
+          |
+          v
+     +---------+
+     | Class B |(sub class)
+     +---------+
+          |
+          v
+     +---------+
+     | Class C |(Sub class)
+     +---------+
+
+
+
+      
+3)Multiple Inheritance
+         
+            ==>If One Subclass is trying to access properties of more than one class super class then it's Known as multiple Inheritance.
+
+               Block Diagram ::
+             
+                                 
+   (super class)    (Super class) 
+   | Class A |      | Class B |
+     +---------+      +---------+
+            \           /
+             \         /
+              \       /
+             +---------+
+             | Class C |
+             +---------+
+              (sub class)
+    
+        
+
+4)Hierarchical Inheritance
+      
+            ==>If one Super class is Having Multiple Having sub class then it will be consider Hierarchical Inheritance.
+            
+            ==>In order words Hierarchical Inheritance means multiple subclass are trying to access properties of only one super class.
+
+                Block Diagram ::
+    
+              (Super class)
+              +---------+
+              | Class A |
+              +---------+
+               /   |   \
+              /    |    \
+             /     |     \
+      +---------+ +---------+ +---------+
+      | Class B | | Class C | | Class D |
+      +---------+ +---------+ +---------+
+        (sub)      (sub)        (sub)
+
+
+          

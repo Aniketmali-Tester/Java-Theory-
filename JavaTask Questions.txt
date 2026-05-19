@@ -1,0 +1,326 @@
+public class customer {
+
+	 String c;
+
+	   String movie;
+
+		int tic;
+
+		double discount;
+
+		double total;
+
+		int ticket=150;
+
+		
+
+		public static void main(String[] args) {
+
+		customer r=new customer();
+
+		r.getdetails();
+
+		
+
+		r.total();
+
+		
+
+		
+
+   System.out.println("customer name :"+r.c);
+
+
+PRIVATE CANDIDATES HALL TICKET DOWNLOAD
+Get your hall ticket quickly with your application number online.
+
+Application No.
+Permanent Registration No.
+Application No.
+Enter your Application No.
+Application number is required
+Date of Birth
+YYYY-MM-DD
+Date of birth is required
+
+
+
+if(Apllications no==Application number)
+{
+
+  if(Date of birth == Dob)
+{
+
+
+      System.out.println("please provide the captcha");
+      System.out.println("Succefully download Ticket");
+  else 
+{
+
+   System.oyut.println("Please Enter valid Captacha);
+
+}
+
+
+
+
+Automation
+
+1.open the browser
+
+Webdriver driver =New ChromeDriver();
+driver.get("https://www.flipkart.com/");
+        
+
+
+
+
+
+
+	System.out.println("movie name :"+r.movie);
+
+	
+
+	System.out.println("ticket price :"+r.ticket);
+
+	
+
+	System.out.println("ticket price :"+r.tic);
+
+	
+
+	System.out.println("Discount applied :"+r.discount);
+
+	
+
+	System.out.println("total amount :"+r.total);
+
+	
+
+
+
+
+
+	}
+
+
+
+	//1.Create a non static method name getdetails()
+
+	      
+
+	
+
+	void getdetails()
+
+	{
+
+		Scanner name=new Scanner(System.in);
+
+		   System.out.println("enter your name");
+
+		   String c=name.next();
+
+		
+
+		   System.out.println("enter your movie name:");
+
+		   String movie=name.next();
+
+		
+
+		   System.out.println("enter no of ticket");
+
+		   int tic=name.nextInt();
+
+	}
+
+	//Calculate total amount
+
+	//Apply discount
+
+	void total()
+
+	{
+
+		
+
+		int amount=ticket*tic;
+
+		if(tic>=5)
+
+		{
+
+			double discount=amount*0.01;
+
+			double total=amount-discount;
+
+		}
+
+		else
+
+		{
+
+			System.out.println("no discount applied");
+
+		}
+
+		
+
+	}
+
+}
+
+
+
+1.write a java program cinema theater wants a Java application to manage movie ticket bookings.
+
+
+    Requirements:
+    ==>Declare Ticket price variable and assign amount
+
+1.Accept:
+     ==>Customer Name
+     ==>Movie Name
+     ==>Number of Tickets
+     
+2.Calculate total amount
+       ==>Apply 10% discount if tickets are more than 5
+3.Display booking summary
+
+
+Methods to Create
+1. getBookingDetails()
+
+     ==>Used to get customer and movie details using Scanner.
+
+2. calculateTotal()
+
+==>calculate total amount
+==>apply discount
+
+3. displayBooking()
+
+Used to display:
+
+==>customer name
+==>movie name
+==>tickets
+==>total amount
+
+Input::
+Enter Customer Name: Ram
+Enter Movie Name: Spider-man
+Enter Number of Tickets: 6
+
+
+Expected Output:
+===== BOOKING SUMMARY =====
+Customer Name: Ram
+Movie Name: Spider
+Number of Tickets: 6
+Ticket Price: 150.0
+Total Amount: 810.0
+
+
+
+
+
+
+
+
+Write a Java program for an Online Food Order System.
+
+Requirements:
+1.Create a class name  FoodOrder.
+2.Declare the following instance variables:
+      ==>customerName
+      ==>foodItem
+3.Create a method named placeOrder() with parameters:
+       ==>customer name
+       ==>food item
+4.Inside the method, create a local variable called deliveryTime and assign 30.
+5.Store the customer name and food item into instance variables.
+6.Display:
+     ==>Customer order details
+      ==>Delivery time
+6.In the main() method:
+      ==>Create an object for the class
+      ==>Call the placeOrder() method with sample values.
+
+
+Expected Output:
+Rahul ordered Pizza
+Delivery Time: 30 mins
+
+
+2.write a java program to  company wants to create a simple Java Login Application for employee authentication.
+
+Requirements
+1.Accept:
+   ==>Username
+   ==>Password
+2.Check login credentials
+3.Display:
+    ==>Login Successful OR Invalid Username/Password
+
+4.Count login attempts
+5.Use non-static methods for:
+    ==>Getting login details
+    ==>validating login
+
+
+Expected Output
+Enter Username: admin
+Enter Password: 1234
+
+Login Successful
+Welcome Admin
+
+Login Attempts: 1
+
+
+
+Requirement
+
+Step 1: Create an abstract class CabService
+
+The class should contain:
+Variables:
+     
+      ==>driverName
+      ==>totalTrips
+      ==>earningPerTrip
+
+Step 2:Create a Abstract Method:
+            calculateSalary();
+
+
+Step 3: Create a subclass Driver
+
+The Driver class should:
+
+ Extend CabService
+
+==>Implement the abstract method
+==>Calculate salary using operators
+
+Formula:
+
+salary = totalTrips * earningPerTrip
+
+Step 4:  create a mainclass and Use Scanner Class to get input from user.
+
+Get the following inputs from the user:
+
+1.Driver Name
+2.Total Trips
+3.Earning Per Trip
+
+Step 5: Display Output
+
+Print:
+Driver Name
+Total Trips
+Earnings Per Trip
+Total Salary

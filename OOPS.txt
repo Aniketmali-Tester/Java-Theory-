@@ -1,0 +1,68 @@
+OOPS::
+
+1.What is Object Oriented Programing?
+
+      ==>Object Oriented Programming is Programming Style Which can be used Develop Applications.
+      ==>The Language Which Supports Object Oriented Concept is known as Object Oriented Programming language.
+
+
+  Following are the object oriented Concept::
+       
+     ==>Inheritance
+     ==>Polymorphism
+     ==>Encapsulation
+     ==>Abstraction
+
+  Following are the language which supports object oriented language::
+    
+     *) JAVA
+     *) PYTHON
+     *) C++
+     *) PHP
+
+  Note:
+     
+      ==>All Programming language we have Different Implementation of object oriented concept.
+    
+
+
+OOPs in Java (Short Explanation)
+
+OOPs = Object-Oriented Programming System.
+Java uses OOPs concepts to organize code using classes and objects.
+
+Main Concepts of OOPs
+
+1.Class
+      *)Blueprint/template for objects.
+      *)Example: Car
+
+2.Object
+      *)Real instance of a class.
+      *)Example: BMW, Audi
+
+3.Encapsulation
+      *)Wrapping data and methods together.
+      *)Provides data security using private.
+
+4.Inheritance
+       *)One class can use properties of another class.
+       *)Promotes code reuse.
+5.Polymorphism
+
+      *)Same method behaves differently.
+        Example: method overriding.
+
+6.Abstraction
+       *)Hides internal details and shows only important features.
+       *)Achieved using abstract class and interface.
+
+
+Purpose / Uses of OOPs in Java::
+
+      ==>Improves code reusability
+      ==>Makes code easy to maintain
+      ==>Provides security
+      ==>Reduces code duplication
+      ==>Helps build large applications efficiently
+      ==>Makes programs modular and flexible

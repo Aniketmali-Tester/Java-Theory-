@@ -1,0 +1,163 @@
+1.Expalin D/B Void and Non-Void Method?
+
+
+
+
+
+&#x20;       ==>If Method is **Having Return Type as a Void It Means we can't transfer the Data** From that Particular Method.
+
+&#x20;       ==>To T**ransfer the Data** **from one method to another Method** we have to **declare method without using void** **Return Data type** Which is also **known as Non-void Method**.
+
+
+
+2.How Transfer the Data one method to another method?
+
+&#x20;        
+
+&#x20;       ==>It's Possible to transfer the data from **one method to another method by using Return Statement**.
+
+&#x20;       ==>**Return Statement Should be last** statement of method body.
+
+&#x20;       ==>It's Possible to declare multiple return Statement Inside the Single Method.
+
+&#x20;       ==>If method is having Return Statement then Be have to provide appropriate Data type as Return type.
+
+
+
+
+
+3.What is the use of RETURN TYPE??
+
+
+
+
+
+&#x20;      ==>Every Method Java Must a Written/Return Type .
+
+&#x20;      ==>**Return Type represents** the **type of information Which is going to be share by method**
+
+&#x20;      ==>In JAVA we can have **two types of methods:**
+
+
+
+&#x20;                     1)Void Method
+
+&#x20;                     2)Non-void Method
+
+
+
+
+
+4.Void Method?
+
+
+
+&#x20;       ==>If Method is Having return type as a void it means we can not transfer the data from respective.
+
+&#x20;       ==>In other words Method is a void which means return Statement is absent.
+
+
+
+5.Non-void Method?
+
+&#x20;       
+
+&#x20;       ==>It is possible to transfer the data from one method to another method by using return statement.
+
+&#x20;       ==>If Method is having return statement then written type should not be void.
+
+&#x20;       ==>In case Methods returns the value then we have to use datatype of respective value as a **ReturnType.**
+
+&#x20;       **==>**we Can't declare multiple return statement inside the signal method because every method is having only one return type.
+
+
+
+&#x20;       ==>**Following Syntax** is used return statement inside method::-
+
+&#x20;            
+
+&#x20;                 datatype method name()
+
+&#x20;                           {
+                                     \_\_\_\_\_\_\_\_\_\_\_\_\_
+
+&#x20;                                    \_\_\_\_\_\_\_\_\_\_\_\_\_
+
+&#x20;                                    \_\_\_\_\_\_\_\_\_\_\_\_\_    //Java Statement 
+
+&#x20;                                    \_\_\_\_\_\_\_\_\_\_\_\_\_
+
+&#x20;                                    \_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+
+&#x20;                              **return** value;
+
+&#x20;                          }
+
+
+
+6.Why main method is having return type as void?
+
+
+
+&#x20;           ==>Main Method is the internal method is responsible for Execution.
+
+&#x20;           ==>Execution starts with main method and ends with method so it is not possible to a return value from main method.
+
+&#x20;           ==>Because of all these reasons main method having return type as void.
+
+
+
+
+
+
+
+&#x20;   **Method Declaration::**
+
+&#x20;            ==>Internal + Void + Parameterized
+
+&#x20;            ==>Internal + Void + non-parametrized
+
+&#x20;            ==>Internal + non-void +Parametrized
+
+&#x20;            ==>Internal + non-void + non-Parameterized
+
+&#x20;            ==>External + Void + Parameterized
+
+&#x20;            ==>External + Void + Non -Parameterized
+
+&#x20;            ==>External + non-void + Parametrized
+
+&#x20;            ==>External + non-void + non-Parametrized
+
+&#x20;            ==>NextLine Method
+
+
+
+
+
+
+
+&#x20;  
+
+
+
+
+
+
+
+
+
+
+
+
+
+&#x20;        
+
+
+
+
+
+
+

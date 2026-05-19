@@ -1,0 +1,180 @@
+**Java intro:--**
+
+
+
+==>Java is a popular and powerful programming language, created in 1995.
+
+
+
+==>It is owned by Oracle, and more than 3 billion devices run Java.
+
+
+
+==>It is used for:
+
+
+
+Mobile applications (specially Android apps)
+
+Desktop applications
+
+Web applications
+
+Web servers and application servers
+
+Games
+
+Database connection
+
+And much, much more!
+
+
+
+
+
+
+
+
+
+**Why Use Java?**
+
+==>Java works on different platforms **(Windows, Mac, Linux, Raspberry Pi, etc.**)
+
+==>It is one of the most popular **programming language**s in the world
+
+==>It has a large demand in the **current job market**
+
+==>It is easy to learn and simple to use
+
+==>It is **open-source and free**
+
+==>It is **secure, fast and powerful**
+
+==>It has huge community support (tens of millions of developers)
+
+==>Java is an **object oriented language which gives a clear structure to programs and allows code to be reused,** lowering development costs
+
+==>As Java is close to C++ and C#, it makes it easy for programmers to switch to Java or vice versa
+
+
+
+
+
+
+
+
+
+1.Basic Java Concepts: - 
+
+==>It is programming language.
+
+==>Before diving into automation, you should be comfortable with:
+
+
+
+
+
+**2.JDK (Java Development Kit) ((current version jdk-26))**
+
+
+
+Definition:
+
+The JDK is a software development kit used to develop Java applications. It provides all the tools and libraries necessary for developing and running Java programs.
+
+
+
+3.Components:
+
+==>JRE (Java Runtime Environment): Included within the JDK, the JRE allows you to run Java applications.
+
+==>Development Tools: Includes a variety of tools for developing, debugging, and monitoring Java applications (e.g., javac, java, javadoc, jdb).
+
+
+
+
+
+4.JRE (Java Runtime Environment):
+
+Definition:
+
+ ==>The JRE is a subset of the JDK that provides the libraries, Java Virtual Machine (JVM), and other components required to run applications written in Java.
+
+ ==>It does not include development tools like compilers or debuggers.
+
+
+
+5.Components:
+
+JVM (Java Virtual Machine): The core part of the JRE that runs Java bytecode.
+
+Class Libraries: Pre-written Java classes that provide commonly used functionality.
+
+Definition:
+
+==>The JVM is an abstract computing machine that enables a computer to run Java programs.
+
+==>It is platform-independent and converts Java bytecode into machine code suitable for the host machine.
+
+
+
+
+
+
+
+Very Simple Analogy
+
+
+
+👉 Think like this:
+
+
+
+**JDK** → Kitchen (where food is prepared)
+
+**JRE** → Dining setup (needed to serve food)
+
+**JVM** → Chef (actually cooks \& serves)
+
+
+
+
+
+==================================================================\*\*\*\*\*================================================================================================
+
+
+
+
+
+
+
+
+
+What You'll Learn
+
+
+
+==>> Java syntax and basic structure
+
+==>> Variables, data types, and operators
+
+==>> Conditions and loops
+
+==>> Methods and parameters
+
+==>> Arrays and strings
+
+==>> Object-oriented programming
+
+==>> Classes, objects, inheritance, and polymorphism
+
+==>> Exception handling
+
+==>> File handling
+
+==>> Collections and useful built-in classes
+
+
+
+
+

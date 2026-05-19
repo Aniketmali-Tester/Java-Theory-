@@ -1,0 +1,128 @@
+1.What is the concatenation?
+
+
+
+==>Concatenation is the p**rocess of joining two inputs.**
+
+==>Concatenation is **possible only if expression contains String values..**
+
+
+
+
+
+2.what is method?
+
+
+
+==>Method is **collection of different java Scripts.**
+
+==>In java method work can be used process the Data.
+
+==>In order words we can operate the data only if method is present
+
+==> In java methods are mainly classified Into two types.
+
+
+
+&#x20;     \*) Internal Method 
+
+&#x20;     \*) External Method
+
+
+
+3)Explain Internal Methods In Java?
+
+
+
+&#x20;==>**Internal Methods also known as In-Bulit Methods.**
+
+&#x20;==>In order words the Methods Which are already Declared In java as known as Internal Methods.
+
+&#x20;==>JVM Automatically Excutes Internal Methods.
+
+&#x20;==>Developer can't modify the signature of Internal Methods.
+
+
+
+&#x20;    Ex:-
+
+&#x20;     **Signature** -->>   public static void main(String \[] args)
+
+&#x20;                        {
+
+
+
+&#x20;                     
+
+&#x20;              Definition    -------->>>>>
+
+&#x20;                              
+
+
+
+&#x20;                         }
+
+
+
+&#x20;                    **Note::**
+
+
+
+&#x20;                           **public-->>**          Access modify
+
+&#x20;                           **static-->>**          Non-Access modify
+
+&#x20;                           **void-->>**            Return type 
+
+&#x20;                           **main-->>**            name
+
+&#x20;                          **(String \[] args)-->**  parameters
+
+
+
+
+
+&#x20;4) Explain External Methods??
+
+
+
+&#x20;          ==>**External Methods are as Known as programmer**.
+
+&#x20;          ==>We can **Create multiple External Methods** in order to distribute the Source code.
+
+&#x20;          ==**>Developer is Responsible Intiate Excuectionof External methods.**
+
+
+
+
+
+
+
+&#x20;5) What are the advantages of creating external method??
+
+
+
+&#x20;           ==>With the help of external methods we can distribute program logic Into small pieces.
+
+&#x20;           ==>External Methods Will Improve code resuablity (write once excute multiples).
+
+&#x20;           ==>We can Develop modular code by creating External Methods.
+
+&#x20;           ==>The source code which is easy to maintain and test is known as molecular code.
+
+
+
+&#x20;    
+
+
+
+
+
+
+
+
+
+
+
+
+

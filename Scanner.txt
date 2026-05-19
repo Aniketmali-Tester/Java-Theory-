@@ -1,0 +1,35 @@
+Scanner::
+
+
+
+1.What is mean by scanner class?
+
+    ==>Scanner Class is an internal class declared  inside the java.util.package.
+    ==>We can accept different types of dynamic values by using scanner class.
+   
+
+           ==>To Accept input from users we have to follow 3 steps::
+                
+                  Step 1: Import the scanner class from java.util.package.
+                          Import java.util.scanner:
+
+
+
+                   Step 2: After import apperation we have activate scanner class by creating an object.
+                            
+                            Scanner S= new scanner(System.in);
+                                    (Ref)  (object)      Accept I/P.
+                                         
+
+
+                    Step 3: Scanner Class provided several method to accept input from users
+
+
+                         method name : next()--> String input
+                                       next int()--> int input
+                                       next float()--> float input 
+                                       next double()--> double input
+                                       next long()--> long input
+                                       next short()--> short input
+                                       next boolean()--> boolean input
+                                       next byte()--> byte input

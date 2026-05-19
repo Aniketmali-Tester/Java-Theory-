@@ -1,0 +1,86 @@
+1.What is mean by Polymorphism?
+
+    ==>Polymorphism in Java is one of the core concepts of object-oriented programming language (OOPs).
+
+
+     ==>Polymorphism is a concept by which we can perform a single task in different ways. That is, when a single entity behaves differently in different cases, it is      called polymorphism in Java.
+
+     ==>We can achieve flexibility in our code using polymorphism because we can perform various operations by using methods with the same names according to requirements. Let’s understand it with some real-time examples.
+
+
+Example 01:
+
+
+
+                 VEHICLE
+
+              ----------------
+              |   start()    |
+              ----------------
+                      |
+        --------------------------------
+        |                              |
+        |                              |
+      Bike                            Car
+   ------------                  ------------
+   | start() |                  | start() |
+   ------------                  ------------
+        |                              |
+ "Bike starts with kick"     "Car starts with key"
+
+
+
+Example 02:
+
+
+
+           
+
+                     Payment
+                ----------------
+                |   pay()      |
+                ----------------
+                        |
+        ---------------------------------
+        |               |               |
+        |               |               |
+   GooglePay         PhonePe          Paytm
+   -----------       -----------      ----------
+   | pay()  |       | pay()  |      | pay() |
+   -----------       -----------      ----------
+        |               |               |
+        |               |               |
+   "GooglePay"      "PhonePe"       "Paytm"
+    Payment          Payment         Payment
+
+
+
+Example 03:
+
+
+                   EMPLOYEE
+
+             ----------------
+             |  salary()    |
+             ----------------
+                     |
+        --------------------------------
+        |                              |
+        |                              |
+     Developer                      Tester
+   -------------                 -------------
+   | salary() |                 | salary() |
+   -------------                 -------------
+        |                              |
+ "Salary is 50000"          "Salary is 40000"
+
+
+2.what is mean by Method overloading?
+
+==>Method overloading is a mechanism in which a class has multiple methods having the same name but different signatures. It is one of the ways that Java implements polymorphism.
+
+
+3.What is mean by Method Overiding?
+
+  ==>Method overriding is a mechanism where a method of Child  class is overridden in the parent  class to provide a more specific implementation. The signature of method in both base and derived classes is the same but they only differ in their implementation.
+                

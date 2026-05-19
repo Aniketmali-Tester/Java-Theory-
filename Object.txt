@@ -1,0 +1,53 @@
+Object:
+
+
+1.What is an object?
+ 
+    ==>An entity having Its own state and behaviour will be considered as an object.
+    ==>State Represents characteristics of an object where as behaviour represents functionality of an object.
+    ==>In case of java object is a copy of non-static members.
+    ==>Non-static data Members represents state of an object where as non-static function member represents behaviour of a object.
+    ==>In Java object is also known as instance of the class.
+
+
+                                         Object
+
+
+                            State                    Behaviour
+                         (Characteristics)        (Functionality)
+
+ 
+
+
+   Real Time Example:
+
+      ==>A mobile Phone is a real-time object.
+
+
+    Properties(state)
+        ==>Brand
+        ==>Color
+        ==>Price
+        ==>Storage
+
+    Behaviours(Actions or Fuctionality)
+        ==>Calling
+        ==>Messaging
+        ==>Taking photos
+        ==>Playing music
+
+    Java concepts
+        ==>Class ---Blueprint of mobile phone
+        ==>Object--Real mobile phone created from this class
+
+
+    Example
+ 
+         ==>class name:Mobile
+ 
+         ==>Object
+              ==>Samsung Mobile
+              ==>iPhone
+              ==>Vivo Mobile
+ 
+ 

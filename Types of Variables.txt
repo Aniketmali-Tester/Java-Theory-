@@ -1,0 +1,75 @@
+Types of Variables::
+
+
+1.In Java Variables into three types::
+          
+        ==>Class Variable
+        ==>Instance Variable 
+        ==>local Variable
+
+  
+    a)Class Variable:
+          
+          ==>Variable Declares Inside The class But outside method by using static Keyword are known as class variables.
+         
+          ==>All Class variables are static in nature.
+          
+          ==>We can Access class variables anywhere Inside the class as well as outside class by using class name as the reference.
+      
+     b)Instance Variables:
+           
+           ==>Variables Declares Inside The class But outside method Without using static keywords are known as Instance variable.
+   
+           ==>All Instance Variable are non-static in nature.
+  
+           ==>We can access Instances variable anywhere Inside the class as well as outside the class By using Object References.
+        
+      c)Local Variable:
+    
+            ==>Variable Declare Inside The Method (or) Block are Known as local variable.
+     
+            ==>Local Variable can be Static and non-static depends upon method type.
+  
+            ==>We can't access local variable outside the method.
+
+
+
+2.what is block?
+     
+            ==>Block Acts as a container as Executable Java.
+        
+            ==>Block can be used to perform Special Operation.
+
+                   Ex::Database Connectivity, Server connectivity ,Initialization etc..,
+             
+            ==>In Java class blocks classified into two types
+
+                          a)Static block
+                          b)Non-static
+
+3.Explain static block?
+             
+           ==>The Block Which declared by using static keyword is known as static block.
+             
+           ==>Static Block can be used to develop Business logic where output remains the same for all the user and will be Executed only once in application life                        cycle.
+           ==>If java class contains static Block and main method then static method block will be Executed Before main method.
+
+           ==>It's possible to declare multiple static Block Inside Single java class and all Block Sequential manner.
+         
+           ==>Static Block will be Excueted After the class loading whereas main method will by executed after the class loading.
+
+
+4.Explain non-static block?
+             
+           ==>The Block Which declared by using without static keyword is known as  Non-static block.
+             
+           ==>Non-Static Block can be used to develop Business logic which  remains the common  for all the objects and will be Executed  multiple times.
+           
+           ==>Non-static Block will be Executed at the time of object creation.
+
+           ==>If class is having static block as well as non-static block then static Block will be executed Before non static Block.
+
+
+
+   
+             

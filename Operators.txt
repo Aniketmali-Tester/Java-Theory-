@@ -1,0 +1,305 @@
+Operators::
+
+1.Explain JAVA Operators??
+    
+    ==>Operators are used to perform operations on program data.
+
+    ==>In JAVA Operators are classified::
+           
+            1)Arithmetic 
+            2)Assignment
+            3)Relational
+            4)Unary
+            5)Logical
+            6)Ternary
+            
+
+2.Explain Arithmetic operators??
+     
+    ==>Arithmetic operators can be used to perform basic arithmetic operations on programdata.
+
+
+      Operator                          usage                                              Example
+
+       +                          Additional & Concatenation                               c=a+b
+
+       -                          Subraction                                               c=a-b
+       
+       *                           Multiplication                                           c=a*b
+  
+       /                            Division                                                c=a/b
+       
+       %                          Module(get reminder)                                      c=a%b
+          
+
+
+
+
+3.Explain Assignment operators?
+
+         ==>Assignment operators can be use assign value to specific variable.
+
+       
+       Operator                  usage                             Example
+ 
+         =                       Assignment                        a=10
+
+        +=                      Addition & Assignment             a+=b(a=a+b)
+
+        -=                      subtraction & Assignment         a-=b(a=a-b)
+
+        *=                      Multiplication & Assignment      a*=b(a=a*b)
+
+       /=                       Division & Assignment             a/=b(a=a/b)
+      
+       %=                       Module and Assignment             a%=b(a=a%b)
+
+
+
+
+4.Expalin Relational Operators?
+
+
+        ==>Relational operators are also know  as comparison .
+        ==>We can Compare two or more inputs by using relational operators.
+        ==>Output of relational operations is a Boolean value.
+
+
+     Operator                      usage                          Example
+     
+      ==                          Check for equality             a==b
+
+      !=                          Negation of equality           a!=b
+
+      <                           less than                      a<b
+
+      >                           Greater Than                   a>b
+
+     <=                           Less than equal                a<=b
+
+     >=                           Greater than equal             a>=b																																																																							
+5.Explain unary operators?
+
+
+    ==>Unary operators are mainly use to perform operations on single variables.
+    ==>unary operations can be done by::-
+        
+         1)Increment
+
+                 Ex:(++=>+1)
+
+                    a)Post Increment
+                    b)Pre Increment
+         
+          2)Decrement
+                    
+                 Ex:(--=>-1)
+
+                    a)Post Decrement
+                    b)Pre Decrement
+    
+
+   A)Post Increment::
+        
+          Post Increment means First use current value inside the expression and then increment original value by +1.
+
+   B)Pre Increment:
+          
+          It means First increase the original value by +1 and then use inside the expression.
+
+   C)Post Decrement:
+          
+           It means first use the current value inside the expression and decreases the original value by -1.
+
+   D)Pre Increment:
+          
+           It Means First decreases the original value by -1 and then use inside the expression.
+
+
+
+
+
+
+
+
+
+
+    Examples::
+           
+
+      Eg:01
+
+           int x=10;
+           int y;
+
+             y=x++ +x+ ++x;
+             s.o.p(x);
+             s.o.p(y);
+
+      Ex:02
+
+           int a=2;
+           int b=4;
+
+
+          b=a++ + ++b + ++a +a-- +a
+           s.o.p(a);
+           s.o.p(b);
+
+
+       Ex:03
+              
+                 int p=4;
+                 int q=6;
+
+
+                 q=p++ + q++ + p + q +--p;
+                  s.o.p(p);
+                  s.o.p(q);
+
+
+
+        Ex:04
+
+                  int d=5;
+                  int e=10;
+                
+          e=++d + ++e + --d + ++d + d;
+          s.o.p(d);
+          s.o.p(q);
+
+
+          Ex:05
+                   int p=10;
+                   int q=2;
+
+
+             if(++p>12)
+             {
+                 P++;
+                 q--;
+             }
+
+              else
+             {
+                  p--;
+                  q--;
+             }
+
+
+
+6.Explain Logical operators?
+
+Logical Operators::
+
+
+     ==>Logical Operators can be use to perform logical operations on program data.
+     ==>We can Use Logical operators along with relational operation/operators.
+     ==>Logical and logical operator
+
+   a)&& 
+
+          IN1       IN2     O/P
+              
+           T         T       T
+
+           T         F       F
+
+           F         X       F
+  
+
+   b)||
+
+          IN1      IN2       O/P
+
+           T        X         T
+           
+           F        T         T
+   
+           F        F         F
+
+
+
+ Logical not(!)::
+
+        ==>This Operator always returns negation (opposite) of Original output.
+        ==>We can use logical not operator along with other logical operators.
+
+
+
+
+       EX 1::
+             int x=12;
+             int y=36;
+             int z=24;
+
+
+          system.out,println(x>y && y<z)----->false
+          system.out,println(x>y || y<z)----->True
+
+
+       EX 2:
+             int x=14;
+             int y=20;
+             int z=24;
+
+
+          system.out,println(!(++a>--b))----->True
+          system.out,println(a++>10 && b++ <20)----->False
+
+
+      
+       EX 3:
+             int x=14;
+             int y=6;
+           
+              int  q=++p+q+p--+p;   15+6+15+14
+
+          if((++>p 15 && --q<25))
+           
+            {
+                 p++;
+                 q--;
+            }
+   
+           system.out,println(p)-----> 15
+           system.out,println(q)-----> 50           
+
+
+          
+        EX 4:
+             int x=12;
+             int y=24;
+ 
+             int y=x++ + y++ + x + ++x;
+
+
+          if((++y<x++ && ++x<y++)||(x--<y++ && --y>x--))
+ 
+            {
+                 x++;
+                 y--;
+            }
+ 
+           system.out,println(x)-----> 14
+           system.out,println(y)-----> 63
+
+
+
+
+7.Explain Ternary operator?
+
+       ==>Ternary Operator act as a decision making statements.
+       ==>We can apply conditions /restriction on program data.
+
+          Syntax::
+                
+                   Variable=(conditions...n)? "exp1 " : "exp2";
+
+                                                if        else
+                                             
+
+                    
+                        
+
+

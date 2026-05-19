@@ -1,0 +1,100 @@
+Control statement:
+
+1.what is use of control statement?
+
+        ==>Control statement are mainly use to control flow of program execution.
+        ==>Every Programming Language uses control statement to control the flow of execution.
+        ==>JAVA control statement classified into 2 types:
+               1)Decision making statement
+               2)Looping satements
+
+   Control statements
+   
+                            
+   1.Decision making               
+
+         *)if-else
+         *)Switch
+
+   2.Looping
+          
+          *)for loop
+          *)while loop
+          *)do-while loop
+          *)break & continue
+
+
+
+2.Explain the use of decision making statements?
+            
+            ==>Decision making statements are use to apply conditions or restriction on program data.
+            ==>In java we can use two statements in order to apply conditions and restriction.
+                 
+                     a)if-else statement
+                     b)switch statement
+            ==>It is possible to apply various conditions by using if-else or switch statement.
+
+
+3.Explain working of if-else statement?
+            
+            ==>if-else is one of the decision making statement which can be used to decide the flow of program execution.
+            ==>Following are the possible combination of if-else
+
+            
+
+             combinations::
+                             
+                  1) if(exp1,exp2....exp3)
+                     {
+
+                          __________
+                          __________    //Java Statement
+                          __________
+                          __________
+                    }
+
+                     2 )if(exp1,exp2....exp3)
+                     {
+
+                          __________
+                          __________    //Java Statement  True value
+                          __________
+                          __________
+                    }
+                    else
+                    {
+
+                          __________
+                          __________    //Java Statement  false value
+                          __________
+                          __________
+                     }
+
+                    3)  if(exp1,exp2....exp3)
+                     {
+
+                          __________
+                          __________    //Java Statement  
+                          __________
+                          __________
+                    }
+                    else if(exp1,exp2)
+                    {
+
+                          __________
+                          __________    //Java Statement  
+                          __________
+                          __________
+                     }
+                                
+                 
+
+                    4) if(exp1,exp2....exp3)
+                     {
+                        if(exp1,exp2....expn)
+                          __________
+                          __________    //Java Statement  True value
+                          __________
+                          __________
+                    }
+                    
