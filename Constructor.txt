@@ -1,0 +1,101 @@
+Constructor::
+
+1.What is constructor?
+
+    ==>Constructor is special Member of the class which can be used initialization state of an object.
+    
+    ==>Since It's the special member of the class Constructor name and class Name should be same.
+  
+    ==>We can't provide Return type to the constructor.
+   
+    ==>Every Java class must have constructor Either Declare By compiler or else Programmer.
+    
+    ==>If compiler Defines The constructor there it's Known Default Constructor.
+   
+    ==>Compiler Will Define the constructor only if user Defined Constructor absence.
+
+    ==>Compiler Can define only Zero parameterized constructor.
+  
+    ==>If programmer Defines the constructor then it's known user Define Constructor.
+
+    ==>Programmer can be define Zero parameterized as well as parameterized Constructor.
+
+    ==>Constructor will be executed at a time object creation.
+
+
+
+2.What is a constructor overloading?
+
+     ==>The process of creating multiple constructor with same Different parameters is known as constructor overloading.
+    
+     ==> At the time of constructor overloading parameter must be different  Either by length or is by datatype. 
+
+     ==>Constructor overloading can be used to create Different object of same class.
+
+
+3.What is use of this keyword?
+
+     ==>It's the special Keyword which always points to current object of class.
+   
+     ==>It's means object address and the address this keyword is always same.
+
+     ==>It can be use to differential local variable and Instance variable .If They Have same Identifier (Name).
+
+
+4.What is constructor call?
+
+      ==> The process In which sub-class constructor Invokes the constructor of super-class is known as constructor call.
+   
+      ==> If two class are class Having Is-A Relationship then constructor call is mandatory.
+
+      ==> Constructor call can be done by using Super() Statement.
+ 
+      ==> Super Constructor Must be the first Statement of constructor Body Which means we can't use Declared Multiple super statement().
+
+
+5. Explain Implicit Constructor call?
+
+      ==> If compiler calls the constructor of super class by Providing super() statement Inside the sub-class constructor Body then It's known Implicit Constructor   call.
+
+      ==>Implicit call passible only if super class constructor is zero parameterized .
+
+
+
+6. Explain Explicit  Constructor call?
+
+      ==> If Programmer  calls the constructor of super class by Providing super() statement Inside the sub-class constructor Body then It's known Explicit Constructor   call.
+
+      ==>If Super class Constructor is parameterized the constructor call need to be done explicit.
+
+
+
+
+7.What is constructor chaining?
+
+       ==>If sub class Constructor calls the constructor of super class and that super class calls the constructor of it's super class then it will be consider as constructor Chaining.
+
+       ==> In Java Every class Should Have Super class Either Declared by programmer (or) Compiler.
+    
+       ==>If programmer Has not provide super class constructor By Default compiler provide object as the super class.
+    
+       ==>Every Java Class will be Having properties of an then object class because of these reason java is object oriented programming language.
+     
+
+8.What is use of this statement?
+
+  
+      ==>this() Statement is used to call another constructor of same class.
+  
+      ==>this() Statement is mainly applicable incase of constructor overloading.
+     
+      ==>this() statement should be the first statement Inside the constructor Body which means multiple statement not allowed.
+
+   
+
+
+
+
+
+
+
+  

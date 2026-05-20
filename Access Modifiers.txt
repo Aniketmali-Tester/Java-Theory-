@@ -1,0 +1,57 @@
+Access Modifiers::
+ 
+1.Explain Access Modifiers In Java?
+
+     ==> Access Modifiers Are Used to apply visibility Restrictions on members on the class.
+    
+     ==> In Java Mainly Four Access type Access Modifier In java
+
+
+            Block Diagram::
+
+                    +-------------------+
+                    | Access Modifiers  |
+                    +-------------------+
+                     /      |      |      \
+                    /       |      |       \
+                   /        |      |        \
+          +---------+ +---------+ +---------+ +---------+
+          | private | | default | |protected| | public  |
+          +---------+ +---------+ +---------+ +---------+
+
+
+Private::
+    
+       ==>If Members are having private accessf those members are not visibility outside the class.
+
+       ==>It means we can Access these variable in any where inside the same class.
+
+Package::(default)
+     
+       ==>If members are having package level access then those members are not visible outside the package.
+
+protector::
+      
+      ==>We can Access protector member anywhere inside the same package as well as outside the package only through Inheritance.
+
+public ::
+     
+      ==>public Members are accessible anywhere Inside the project as well as outside the project.
+
+
+
+========================================================
+        ACCESS MODIFIERS DIFFERENCE TABLE
+========================================================
+
++-------------------+-------------+--------------+--------------+----------------+
+| Access Modifier   | Same Class  | Same Package | Child Class  | Other Package  |
++-------------------+-------------+--------------+--------------+----------------+
+| private           | YES         | NO           | NO           | NO             |
+| default           | YES         | YES          | NO           | NO             |
+| protected         | YES         | YES          | YES          | NO             |
+| public            | YES         | YES          | YES          | YES            |
++-------------------+-------------+--------------+--------------+----------------+
+
+
+     
