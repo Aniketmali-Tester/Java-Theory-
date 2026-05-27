@@ -1,14 +1,61 @@
+
+Polymorphisms::
+
 1.What is mean by Polymorphism?
 
-    ==>Polymorphism in Java is one of the core concepts of object-oriented programming language (OOPs).
+         *)Polymorphism is one of the oops concept principle.
+       
+         *)An object Showing Different Behaviour and Different Stages At the life cycle then it's known as polymorphism.
 
+         *)In other words Polymorphism is the process of creating object with multiple Behaviours.
 
-     ==>Polymorphism is a concept by which we can perform a single task in different ways. That is, when a single entity behaves differently in different cases, it is      called polymorphism in Java.
+         *)Polymorphism Mainly claasified Into two types::
+     
+                     ==>Compile Time polymorphism
+                     ==>Run time Polymerphism
 
-     ==>We can achieve flexibility in our code using polymorphism because we can perform various operations by using methods with the same names according to requirements. Let’s understand it with some real-time examples.
+         
+
+    
 
 
 Example 01:
+
+
+
+
+
+                  AMAZON
+
+              ----------------
+              |   AMAZON    |
+              ----------------
+                      |
+        --------------------------------
+        |                              |
+        |                              |
+      Prime                          Non-prime
+   ------------                  ------------
+   | 1-day delivery|               3-4 days delivery    
+   ------------                  ------------
+                                
+
+
+                    TV
+
+              ----------------
+              |      TV    |
+              ----------------
+                      |
+        --------------------------------
+        |                              |
+        |                              |
+                                 Internet TV
+      Satellite TV                 (Or)
+        (or)                     Smart TV
+     ordinary TV
+ 
+
 
 
 
@@ -77,10 +124,62 @@ Example 03:
 
 2.what is mean by Method overloading?
 
-==>Method overloading is a mechanism in which a class has multiple methods having the same name but different signatures. It is one of the ways that Java implements polymorphism.
+       *)The process of Creating multiple methods with same Name but different parameters is known as method overloading.
+       
+       *)Method Overloading Can be used to achieve same Functionality with different parameters.
+
+       *)At the time of method overloading parameters must be different Either by length (or) Datatype.
+
+       *)We can overload static as well as non-static methods.
+
+       *)Method overloading can be used to achieve polymorphism. 
+
 
 
 3.What is mean by Method Overiding?
 
-  ==>Method overriding is a mechanism where a method of Child  class is overridden in the parent  class to provide a more specific implementation. The signature of method in both base and derived classes is the same but they only differ in their implementation.
+        *)The process of Inherit the method from super class and changing It's implementation in Sub class is known as methoveriding.
+
+        *)At the time of method overriding method signature should be same but we change definition.
+     
+        *)Method Overriding is used to achieve Different Implementation with same parameters.
+ 
+          ==>We can't override Following Methods::
+
+             *)Static 
+            
+             *)Private 
+   
+             *)Final
+
+
+  Static:
+         ==> We can't override static methods Because Static members are the permanent Members of the class.
+
+  Private:
+        ==>We can't Overide Private method Because Private Members are not Accessible Outside the Class.
+
+  Final:
+       ==>It's Not Possible to Overide Final method Because It will be Consider as constant method.
+
+       ==>Method Overiding Is used to achieve the run time polymorphism.
+
+
+
+4.What is use of final keyword?
+
+         *)In java Final Keyword is used to create constants.
+
+         *)Final Keyword can be used along with variable method (or) class.
+    
+         *)If variable is a final then we can't Re-Initialization that variable.
+
+         *)If method is a final then we can't override that method.
+
+         *)If class is a final then we can't Inherit the properties of that class. 
+
+
+
+
+
                 
