@@ -1,0 +1,22 @@
+Encapsulation in Java:-
+--------------------------
+
+Definition:-
+
+       *)Encapsulation is the process of binding data (variables) and methods into a single unit (class) and hiding data using private access modifier.
+       
+       *)In other Words Both Data Members and Function Members Binding into single Class.
+     
+       *)Encapsulation is the process of hiding data by declaring variables as private and providing access through public getter and setter methods. 
+         It helps protect data and provides controlled access to class members.
+
+Getter Method Definition:-
+------------------------
+
+       *)A getter method is a public method used to retrieve (get) the value of a private variable from outside the class.
+      
+
+Setter Method Definition:-
+------------------------
+       
+       *)A setter method is a public method used to assign (set) or update the value of a private variable from outside the class.

@@ -1,128 +1,90 @@
+Methods::
+
 1.What is the concatenation?
 
-
-
-==>Concatenation is the p**rocess of joining two inputs.**
-
-==>Concatenation is **possible only if expression contains String values..**
-
-
-
+==>Concatenation is the process of joining two inputs.
+==>Concatenation is possible only if expression contains String values..
 
 
 2.what is method?
 
-
-
-==>Method is **collection of different java Scripts.**
-
+==>Method is collection of different java Scripts.
 ==>In java method work can be used process the Data.
-
 ==>In order words we can operate the data only if method is present
-
 ==> In java methods are mainly classified Into two types.
 
-
-
-&#x20;     \*) Internal Method 
-
-&#x20;     \*) External Method
-
-
+      *) Internal Method
+      *) External Method
 
 3)Explain Internal Methods In Java?
 
+ ==>Internal Methods also known as In-Bulit Methods.
+ ==>In order words the Methods Which are already Declared In java as known as Internal Methods.
+ ==>JVM Automatically Executes Internal Methods.
+ ==>Developer can't modify the signature of Internal Methods.
 
+     Ex:-
+      Signature -->>   public static void main(String [] args)
+                         {
 
-&#x20;==>**Internal Methods also known as In-Bulit Methods.**
+ 
+               Definition    -------->>>>>
+ 
 
-&#x20;==>In order words the Methods Which are already Declared In java as known as Internal Methods.
+                          }
 
-&#x20;==>JVM Automatically Excutes Internal Methods.
+                     Note::
 
-&#x20;==>Developer can't modify the signature of Internal Methods.
+                            public-->>          Access modify
+                            static-->>          Non-Access modify
+                            void-->>            Return type
+                            main-->>            name
+                           (String [] args)-->  parameters
 
 
+ 4) Explain External Methods??
 
-&#x20;    Ex:-
+           ==>External Methods are as Known as programmer.
+           ==>We can Create multiple External Methods in order to distribute the Source code.
+           ==>Developer is Responsible Intiate Excuection of External methods.
 
-&#x20;     **Signature** -->>   public static void main(String \[] args)
 
-&#x20;                        {
 
+ 5) What are the advantages of creating external method??
 
+            ==>With the help of external methods we can distribute program logic Into small pieces.
+            ==>External Methods Will Improve code resuablity (write once excute multiples).
+            ==>We can Develop modular code by creating External Methods.
+            ==>The source code which is easy to maintain and test is known as molecular code.
 
-&#x20;                     
 
-&#x20;              Definition    -------->>>>>
+6)What is method Chaining?
 
-&#x20;                              
+            ==>The process of calling one External Method to another External Method that External Method From Main Method Know As method Chaining.
+            ==>Method Chaining is not possible without main method.
 
 
+7)Why main method is important In Java Program??
+ 
+            ==>Main Method is an Internal Method Hence the execution of every program Starts from Main Method.
+            ==>If the Java Class Does Not Contains Main Methods Than Programme Will be Compile  Succesfully But If not Executes.
+            ==>At the time of Excuetion JVM will Search For Only main method Hence We Have to call other External Method Inside Main Method.
+            ==>Because of all these Reason Main Method Playes Important Role In Java Programming.
 
-&#x20;                         }
 
+8)What is D/B Parameterized and Non-Parameterized?
 
+            ==> If Method Accepts Inputs Parameters then Known as Parametrized Method.
+            ==> The Method Which Does Not Accepts Input Parameters Known as non-parametrized Method.
+            ==> If Method Parametrized then it can pass run time data.
+            ==> If Method is non-parametrized than it can't pass Run time Data.
 
-&#x20;                    **Note::**
 
+9)Explain Input Parameters?
 
+            ==> Input Parameters are Nothing But Variables Decalred Inside the method Signature.
+            ==> It's Possible to declare different types of Input parameters Inside the Method Signature.
+            ==> We can pass multiple Input Parameters At the same time.
+            ==> If Method Contains Input Parameters then we Have passed same no of arguments at a time of method call.
 
-&#x20;                           **public-->>**          Access modify
-
-&#x20;                           **static-->>**          Non-Access modify
-
-&#x20;                           **void-->>**            Return type 
-
-&#x20;                           **main-->>**            name
-
-&#x20;                          **(String \[] args)-->**  parameters
-
-
-
-
-
-&#x20;4) Explain External Methods??
-
-
-
-&#x20;          ==>**External Methods are as Known as programmer**.
-
-&#x20;          ==>We can **Create multiple External Methods** in order to distribute the Source code.
-
-&#x20;          ==**>Developer is Responsible Intiate Excuectionof External methods.**
-
-
-
-
-
-
-
-&#x20;5) What are the advantages of creating external method??
-
-
-
-&#x20;           ==>With the help of external methods we can distribute program logic Into small pieces.
-
-&#x20;           ==>External Methods Will Improve code resuablity (write once excute multiples).
-
-&#x20;           ==>We can Develop modular code by creating External Methods.
-
-&#x20;           ==>The source code which is easy to maintain and test is known as molecular code.
-
-
-
-&#x20;    
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
