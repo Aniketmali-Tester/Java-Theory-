@@ -1,0 +1,98 @@
+For Loop In java::-
+
+Definition:-
+
+    *)A for loop is a control statement used to execute a block of code repeatedly for a specific number of times.
+    
+    *)A for loop consists of initialization, condition, and increment/decrement expressions. The loop continues until the condition becomes false.
+   
+    *)A for loop is a control statement used to execute a block of code repeatedly for a specific number of times.
+    
+       It Contains:-
+       ------------
+              *)Initialization
+              *)Condition
+              *)Increment/Decrement
+
+
+ Syntax:-
+
+           for(initialization; condition; increment/decrement) {
+
+                         // statements
+              }
+
+
+
+| Part       | Description    |
+| -----------| -------------- |
+| int i = 1 | Initialization |
+| i <= 5    | Condition      |
+| i++       | Increment      |
+| { }       | Loop Body      |
+
+
+
+
+                                                                  FOR LOOP FLOW DIAGRAM
+                                                                  ----------------------
+
+                                                                         Start
+                                                                           |
+                                                                           v
+                                                                      Initialization
+                                                                           |
+                                                                           v
+                                                                        Condition
+                                                                           |
+                                                                     +-----+-----+
+                                                                     |           |
+                                                                    True       False
+                                                                     |           |
+                                                                     v           v
+                                                                  Statements    End
+                                                                     |
+                                                                     v
+                                                                  Increment /
+                                                                  Decrement
+                                                                     |
+                                                                     v
+                                                                  Condition
+
+
+
+
+                                                                   OR
+
+
+                                                                  Start
+                                                                    |
+                                                                    v
+                                                                int i = 1
+                                                                    |
+                                                                    v
+                                                                  i<=5 ?
+                                                                  /   \
+                                                                Yes     No
+                                                                 |       |
+                                                                 v       v
+                                                            Print i      End
+                                                                 |
+                                                                 v
+                                                                i++
+                                                                 |
+                                                                 |
+                                                                 +---------> Back to i<=5 ?
+
+
+
+Execution Order::-
+---------------------
+
+1. Initialization
+2. Condition Check
+3. Execute Statements
+4. Increment/Decrement
+5. Again Check Condition
+6. Repeat Until Condition Becomes False
+7. End

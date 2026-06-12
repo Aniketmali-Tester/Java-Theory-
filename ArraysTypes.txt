@@ -1,0 +1,97 @@
+Types of Arrays::-
+---------------------
+
+       *)Single Dimensional Array (1D Array)
+       *)Two Dimensional Array (2D Array)
+       *)Three Dimensional Array (3D Array)
+
+1.Single Dimensional Array (1D Array)::-
+-----------------------------------------
+
+Definition::-
+
+A Single Dimensional Array stores elements in a single row and uses only one index to access elements.
+
+Syntax::-
+
+Declaration::-
+datatype[] arrayName;
+
+ Example::-
+ int[] marks;
+
+Declaration and Creation
+datatype[] arrayName = new datatype[size];
+
+Example
+int [] marks=new int[5];
+
+
+
+2.Two Dimensional Array (2D Array)::-
+------------------------------------------
+   
+Definition::-
+    
+     ==> A Two Dimensional Array stores data in rows and columns and uses two indexes to access elements.
+
+Syntax::-
+
+Declaration::-
+datatype[][] arrayName;
+
+     Example::-
+     int[][] marks;
+
+Declaration and Creation::-
+datatype[][] arrayName = new datatype[rows][columns];
+     
+      Example::-
+      int[][] marks = new int[3][3];
+
+
+Initialization
+int[][] marks = {
+    {80, 85, 90},
+    {75, 88, 92},
+    {70, 95, 98}
+};
+
+
+
+
+3.Three Dimensional Array (3D Array)::-
+------------------------------------------
+
+Definition::-
+         
+         ==>A Three Dimensional Array stores data in multiple tables and uses three indexes to access elements.
+
+Syntax::
+ 
+Declaration::-
+datatype[][][] arrayName;
+
+      Example
+      int[][][] marks;
+
+
+Declaration and Creation::-
+datatype[][][] arrayName = new datatype[layer][rows][columns];
+
+      Example
+      int[][][] marks = new int[2][3][4];
+
+
+Initialization::-
+int[][][] marks = {
+    {
+        {80, 85},
+        {90, 95}
+    },
+    {
+        {70, 75},
+        {88, 92}
+    }
+};
+

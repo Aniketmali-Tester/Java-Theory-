@@ -1,0 +1,39 @@
+Arrays in Java::-
+------------------
+
+1.Definition::
+-------------
+
+An Array is a collection of elements of the same data type stored in continuously memory locations. It is used to store multiple values in a single variable instead of creating separate variables for each value.
+
+
+2.Types of Arrays in Java::-
+---------------------------------
+      
+       *)Single Dimensional Array (1D Array)
+       *)Two Dimensional Array (2D Array)
+       *)Three Dimensional Array (3D Array)
+
+
+3.Single Dimensional Array (1D Array)::-
+-----------------------------------------
+
+Definition
+
+A Single Dimensional Array stores elements in a single row and uses only one index to access elements.
+
+Syntax::-
+
+Declaration::-
+datatype[] arrayName;
+
+ Example::-
+ int[] marks;
+
+Declaration and Creation
+datatype[] arrayName = new datatype[size];
+
+Example
+int [] marks=new int[5];
+
+
