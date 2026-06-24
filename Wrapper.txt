@@ -1,0 +1,67 @@
+Wrapper Classes In Java:-
+----------------------------
+
+
+1.What are the Wrapper Class?
+
+      ==>Wrapper Classes are also Known as Non-primitive Datatypes.
+
+      ==>As We Know that java is Not Purely object oriented language Because of primitive Datatypes.
+
+      ==>Sometimes we Have Represented Information only in object oriented Format.In such a case we can't use primitive Datatypes.
+ 
+      ==>Wrapper classes are the class represented Information Purely Object Oriented Format.
+
+      ==>In Java Total Eight Wrapper Classes are available eight primitive Datatypes.
+
+      ==>All Wrapper Classes extends the properties of an object class.
+
+
+Ex::--Diagram Wrapper class::--
+------------------------------------
+
+
+                                                                WRAPPER CLASSES IN JAVA
+                                                                =======================
+
+                                                                  +--------------------+
+                                                                  | Primitive Data Type|
+                                                                  +--------------------+
+                                                                           |
+                                                    -------------------------------------------------
+                                                    |        |       |       |      |      |      |      |
+                                                    byte    short    int    long   float double char boolean
+                                                     |        |       |       |      |      |      |      |
+                                                     V        V       V       V      V      V      V      V
+                                    +------+ +-------+ +---------+ +------+ +-------+ +--------+ +-----------+ +---------+
+                                    | Byte | | Short | | Integer| | Long | | Float| | Double| | Character| | Boolean|
+                                    +------+ +-------+ +---------+ +------+ +-------+ +--------+ +-----------+ +---------+
+
+
+
+
+
+Note::-
+
+     ==>There is No wrapper class for string Because .It's Already Present in the form of class.
+
+
+
+2)What is the Differences Between Autoboxing &Autounboxing?
+
+        Autoboxing::
+       -------------
+    
+                    ==>The Process of converting Primitive Information into non-primitive Format Known as Autoboxing.
+   
+                    ==>In order Word Autobox Means Converting Simple Information Into object Oriented Format.
+
+
+
+       AutoUnboxing::
+      ----------------
+  
+                     ==>The process of converting Non-primitive Information Into Primitive Format is known as Autountboxing.
+  
+                     ==>In other words Autounboxing Means Converting object oriented Information Into Simple Format.
+

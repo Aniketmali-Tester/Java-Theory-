@@ -1,0 +1,21 @@
+InterFace In JAVA::
+---------------------
+
+
+1.What is an Interface?
+
+    ==>Interface is Special type of definition block in java.
+    
+    ==>It's mainly used to declare only abstract Method.
+  
+    ==>It's Not possible to declare Non-static concrete Methods inside the Interface.
+
+    ==>By Default all variables Declared Inside the Interface are public static and final.
+
+    ==>A java Class can Implements The properties of an interface.
+   
+    ==>we can't create an object of interface Because It contains only abstract methods.
+
+
+
+          

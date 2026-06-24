@@ -1,0 +1,160 @@
+String In Java::-
+----------------------
+
+
+1.Explain the String class?
+
+
+           *)String Class is also known as non-primitive Datatype.
+         
+           *)String class is declared Inside the java.Language Package.
+   
+           *)String class Can be used to store string objects.
+
+           *)It's Possible to declare a string by using two Different ways::-
+
+                        *)without Using new Operator
+                      
+                        *)With using new operator 
+
+                       
+                          Ex::-
+                          -----
+            
+                                  1)String str1="JAVA";
+                                  2)String s1=new String("JAVA")
+                                  3)String str2="JAVA"
+                                  4)String s2=new String("JAVA")
+
+
+
+
+
+2)How to compare String objects?
+
+
+               ==>In have three Different options to compare String values.
+             
+                     A)equalityOperator(==):-
+
+                                  *)This Operator Always compares the Address of String objects.
+                    
+                     b)equals():-
+                                   *)This Method Compares the content present inside the address.
+                                   
+                                   *)This Method is case sensitive.
+
+
+                     c)equalsIgnorecase():
+                                     
+                                    *)This Method is also used for the comparsion content present Inside the Address.
+
+                                    *)This Method Case-insensitive.
+
+
+
+
+3)Explain String functions?
+
+                 
+         ==>String Functions are used to perform variation operation on string values.
+
+
+         1)length():
+           
+                    *)This Function Always Returns total no of characters Present inside the string values.
+
+                    *)The Return type of this function is Integer.
+
+
+         2)charAt(int index):
+                    
+                   *)CharAt Function Accepts the index Number as the input parameter and Returns the character preset at specified Index.
+
+       
+        3)indexof(char ch):
+
+                    *)Index Of Function Always Accepts Input and Return the Index Number of Specified charater.
+                   
+                    *)If Character is having multipe occurances then function will return index of first occurances.
+
+        
+        4)lastIndexof(char ch):
+ 
+                    *)This Function is also Accepts the character Input returns the Index no.
+
+                    *)If Character is Having multiple occurances then this function will return index no of last occurances.
+
+
+        5)Contains():
+    
+                     *)This Function can be used to check whether sting contains Specified character (or) Character Sequel.
+                    
+                     *)Contains Functions Always Returns Boolean value.
+
+        
+         6)StartWith():
+         
+                     *)This Function can be used to check whether the string starting with specified sequences (or) not.
+
+                     *)It's also returns Boolean value as a output.
+    
+         7)EndsWith():
+                  
+                     *)This Function can be used to check whether the string Ending with Specified sequences (or) not.
+
+         
+         8)SubString():
+               
+                      *)Substring is nothing But small part of the original String.
+                      
+                      *)we can call substring function by providing only start Index (or) End Index.
+
+         9)to uppercase & to lowercase ():
+
+         10)to char Array():
+
+                       *)This Function can be Used to convert String object Into char Array.
+
+         11) Split Function():
+
+                       *)Split Function can be used tto divided String value into multiple Substrings.
+
+                       *)Split Function Always Returns the String Arrays Which contains all the substring value of the original String.
+
+                       *)In order to use Split function we Have to provide appropriate condition.
+
+         12)isEmpty():
+
+                    
+                       *)This Function can be used to check Whether String is empty (or) not.
+
+                       *)isEmpty functions is empty output will be true it will be false.
+
+        13)trim():
+
+                       *)trim function cab be used to remove the white space from string value. `
+                      
+                       *)White space will be removed either from leading (or) tailaing postion.
+                       
+                       *)After Removing the white space this function will return new string object.
+
+
+          14function()
+      
+                       *)This functions can be used to replace single character (or) group of character with new values.
+                     
+                       *)Following is the syntax to use replace() 
+
+    
+
+               
+
+
+
+  
+           
+                 
+
+
+                                     
