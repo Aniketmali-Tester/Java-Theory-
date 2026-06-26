@@ -1,0 +1,169 @@
+EXCEPTION HANDLING IN JAVA
+==========================
+
+Definition:
+Exception Handling is a mechanism in Java used to handle runtime errors
+so that the normal flow of the program can continue without termination.
+
+OR
+
+Exception Handling is the process of handling unexpected events
+(runtime errors) that occur during program execution.
+
+Purpose:
+1. Prevent abnormal program termination.
+2. Maintain the normal flow of the program.
+3. Handle runtime errors gracefully.
+
+Keywords Used in Exception Handling:
+1. try       - Contains code that may cause an exception.
+2. catch     - Handles the exception.
+3. finally   - Executes whether an exception occurs or not.
+4. throw     - Used to explicitly throw an exception.
+5. throws    - Declares exceptions that a method may throw.
+
+Syntax:
+
+try {
+    // risky code
+}
+catch(Exception e) {
+    // exception handling code
+}
+finally {
+    // cleanup code
+}
+
+Real-Time Example:
+ATM transaction, file handling, database connection, and user login
+validation are common examples where exception handling is used.
+
+
+
+
+1)What is the use of try and catch block?
+
+ Try::
+------
+           ==>Try Block acts as an container for abnormal Java Scripts.
+           
+           ==>In other words the java Statement Which makes of an exception Should be declared Inside the try block.
+     
+           ==>If Exception occurs then try block will throw that exception catch block.
+    
+  Catch block::
+
+          ==>Catch block is responsible to handle the exception through.
+   
+          ==>In other words catch blocks acts as a exception Handler.
+    
+          ==>Catch block must be Declared After the try block.
+  
+         ==>It's possible to declare multiple Catch blocks along with single try blocks
+
+
+
+2)What is Nested trycatch block?
+
+
+         ==>If one trycatch block is declared inside another trycatch block then it's known as Nested trycatch block.
+     
+         ==>Nested trycatch block can be used to handle multiple exception at a same time.
+     
+         ==>It's possible to create multiple Nested try catch block Inside the single outer try block.
+
+         ==>Following syntax we can use nested try catch below::-
+
+       
+           try 
+              {
+
+                 try--->Inner Try block
+                     {
+
+                          -----
+                          -----
+                          ----
+                     }catch()
+                     {
+                        ------
+                     }
+              catch()
+              {
+                      ------
+                      -----
+              }
+               
+
+
+
+
+3)What is use of throw Keyword?
+
+
+      ==>It's One of the Exception Handling Component.
+     
+     ==>Throw Keyword can be used to create Explicitly create an exception.
+
+     ==>Usually Exception Object are created by JVM Which is known as Implicit Exception.
+
+     ==>If Developer is creating there own Exception object then it will be consider Excplicit Exception and it's Possible by using throw Keyword.
+
+     ==>throw Keyword is capable to create check as well as unchecked Exception.
+
+
+Syntax::--
+-----------
+ 
+           throw exception object;
+
+
+4)What is use of FinallyBlock?
+
+
+         ==>It's the one of the exception Handling Components.
+
+         ==>Finally block Contains all the Important Statement Which has to be  Executed Whether Exception occur (or) not.
+
+         ==>It's Mainly used to close costly Resources 
+  
+         ==>If Java Application Commutecates with External Application then some External Resources will be getting involved in the transaction which is known as costly resources.
+
+         ==>We can Declare Finallyblock after try block (or) catch block.
+
+         ==>It's not possible to declare multiple finally  block after (or) catch blocks.
+
+5)What use of throwskeywords?
+
+        ==>It's the one of Exception Handling components.
+   
+        ==>throws Keyword is mainly used to declare and exception.
+
+        ==>It's the possible to declare to declare multiple Exception with help of throws.
+
+        ==>If we are using try catch block then no need to use throws Keyword.
+
+
+6)What is CustomException?
+
+        ==>CustomException is also known as user defined Exception.
+    
+        ==>Developers can created there own Exception to handle different types of exception.
+   
+        ==>It's possible to create check as well as unchecks customation.
+        
+        ==>Following is the syntax to create unchecks::
+
+
+ Syntax::
+ ---------
+  
+     class DemoException extends RuntimeException
+    {
+       
+         }
+
+
+
+
+
