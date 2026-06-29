@@ -1,0 +1,360 @@
+1)What is D/B Collection,Collections,Collections,CollectionsFrameworks?
+
+
+      ==>Collection is an Interface Declared inside java.util.packages.
+
+      ==>Collections is a class Declare inside the java.util packages.
+
+      ==>Collections Framework Combination of Different class and Interface.
+
+2)What are the Drawbacks of Array?
+
+      ==>Array is static Build in nature (Fixed Build)Which we can't change size of an array at runtime.
+ 
+      ==>Array can be used to only store sametype of Data that is Homogenous Information.
+ 
+      ==>Array Manipulation is a type of consuming process.
+
+
+3)What is Collection Framework?
+
+      ==>An Enity Which represence group of multiple objects is known as collection.
+
+      ==>Collection can store different types of element as the single entity.
+
+      ==>By using Collection framework we can efficient store and process the Data.
+
+
+4)What are the Benefits of using collection framework?
+
+      ==>Collection Framework is a resizable in nature it means dynamic.
+
+      ==>It will increase the code reusability.
+
+      ==>It reduces Development Effort by providing by readymade classes Interface and variable methods.
+
+      ==>It reduces the effort for code maintenances.
+
+
+
+
+Hierarchy of Collection Framework::-
+=======================================
+
+
+                                                                       Iterable
+                                                                          |
+                                                                      Collection
+                                                                          |
+                                                     -------------------------------------------------
+                                                     |                    |                         |
+                                                     List                Set                      Queue
+                                                     |                    |                         |
+                                                  ArrayList            HashSet                 PriorityQueue
+                                                  LinkedList         LinkedHashSet
+                                                    Vector            TreeSet
+                                                     |
+                                                   Stack
+
+                                                                        Map
+                                                                         |
+                                                       -------------------------------------------------
+                                                       |                    |                          |
+                                                     HashMap          LinkedHashMap                  Hashtable
+                                                       |
+                                                     TreeMap
+
+
+5) EXplain the charecteristics of listInterfac?
+
+        ==>List(I) is Declare Inside Java.util.Packages.
+   
+        ==>List(I) Extens the properties of collection framework.
+
+        ==>List Allows to store null and duplicate value.
+
+        ==>Incase of list(I) Data will be store in sequentinal Manner.
+
+        ==>Following Are implementation class of list::-
+
+                    *)Arraylist(c)
+                    
+                    *)Vector(c)
+ 
+                    *)Linkedlist(c)
+
+
+6)Explain Arraylist in detail?
+
+        ==>Arraylist Implements the properties of List(I).
+
+        ==>It's the class Declare Inside Java.util.Package.
+
+        ==>Arraylist Internal uses Dyanmic Array Data Structure.
+
+        ==>Since It's Implements Class of list (I) Data Will stored in Sequential Manner as well as It stored value in Duplicate Manner.
+
+
+
+7)Explain the Importants to operate Arrayslist ?
+    
+        
+         1)add(object O)::-
+  
+                 ==>This Method can be used to new Element (or) Object into Array.
+
+    
+         2)add(int index,object O)::-
+
+                 ==>This Method can be used add new element (or) object at specific position.
+
+         
+        3)remove(Object O)::-
+
+                 ==>This Method can be used to remove specific object from list.
+
+        
+        4)remove(int index)::-
+
+                 ==>This Method can be used to remove specific object from list positon.
+
+
+        5)set(int index,object O)::-
+               
+                ==>This Method can be used to modify an object from Specific Position.
+    
+
+        6)get(int index)::-
+
+               ==>This Method can be used to fetch the Element from Specific Position.
+
+
+        7)Size()::-
+    
+               ==>This Method always return total no of object present inside the list.
+
+        
+       8)addall(Collection c)::-
+
+               ==>This Method is used add all the Element from one collection Into another collection.
+
+      
+       9)isEmpty()::-
+
+               ==>This Method will chech the string is Empty (or) not and returns the boolean value.
+
+
+       10)clear()::-
+         
+               ==>This Method is used to delete all the Elemnts from list.
+
+
+8) What is D/B generic and non-generic?
+
+  
+            ==>generic Arraylist alongs to store only same type of data.
+
+            ==>Non-generic Arraylist alongs to store same type as well as Different type of information.
+
+            ==>generic arraylist must be created by using appropriate wrapper class.
+
+            ==>Non-generic Arraylist cab be created without using wrapper class.
+
+
+9) what is a D/B Iterator & listIterator?
+
+
+            ==>Both are Interface Declare Inside the Java.util.package.
+
+            ==>Iterator can be used Iterator any type of collection.
+
+            ==>LstIterator Specifically used Iterator the Array list (or) lis collections.
+
+            ==>By using Iterator we can tranverse the data to forward Direction
+
+            ==>listIterator can tranverse the data forward as well as Backward Direction.
+
+                           *)Itr.hasprevious();
+                           *)Itr.Previous();
+
+
+10) Explain the characteristics of Vectorclass?
+
+            
+             ==>Vetorclass Implements the properties of list Interface.
+
+             ==>Vectorclass Declared Inside the java .util.package.
+
+             ==>It's the legacy class of collection framework Because this class is available from first version of java Language.
+
+             ==>Since It's the Implementation of Interface Data will be store in sequentinal manner as well as we can store Duplicate value.
+ 
+             ==>Vector is the similar to arraylist onlt the differences is the arraylist asynchronous and vector is synchronus.
+
+             ==>Data Processing speed of vector is slower than Arraylist.
+
+
+
+
+11)Explain the characterictics of setInterface set(I)?
+ 
+ 
+              ==>Set(I) Extends the properties of collections Interface.
+  
+              ==>Set(I) is declare Inside the java.utili.package.
+
+              ==>Set(I) Doesn't Along to store Duplicate Objects.
+
+              ==>Incase of Set(I) Data will be store in random order.
+
+              ==>Following are the Implementation Set(I)
+
+                         *)HashSet
+                         *)LinkedHashset
+                         *)Treeset
+
+              ==>All three clases Internally use Hashtable to store data.
+
+              ==>Hashtable is combination of two columns 
+                           
+                          Ex::Key,value
+
+
+12)Explain the characteristics of Quene?
+
+                  
+              ==>Quene(I) extends the properties of collection Interface.
+
+              ==>Quene(I) is decalred inside java .util.package.
+
+              ==>Quene(I) is mainly is use process the Data By using (FIFO) order.
+
+              ==>Quene(I) is having two implementation classes.
+
+                           *)LinkedList
+                           *)priority
+
+
+             ==>Following are the important which can be used to perform action on quene::-
+
+
+                      1)offer(object)::
+                        
+                            ==>This Method is used to add new Element Into the quene.
+
+                            ==>By Default Every new Element will be inserted at the end of quene.
+
+                     2)peek::
+
+                            ==>This Method always Returns Head Element of the quene(First Element)
+
+                            ==>If quene is Empty then method will return null vlaue.
+
+
+                     3)element::
+
+                            ==>This Method also Returns Head Element for the quene.
+
+                            ==>If quene is empty then this method will through No suchElement Expection.
+
+                     4)pull()::
+
+                            
+                           ==>This Method is used to remove head element from the quene.
+
+                           ==>If quene is empty then method will return null vlaue.
+
+
+                     5)Remove()::
+
+                           ==>This Method is used to remove Head of the quene.
+       
+                          ==>If quene is empty then this method will through nosuchelementExpection.
+
+13)What is Priority?
+
+
+                ==>Priority give the implements the properties of Quene(I).
+
+                ==>It's the class Declared Inside java.language.package.
+  
+                ==>Priority give osen't Follow (FIFO) principle of quene(I).
+
+                ==>Incase of priority give Data will In Asscending order.
+
+
+
+
+14)what is Map(I)?
+
+
+                ==>Map(I) Dosen't Extends Properties of collection Interface still It's part of Collection Framework.
+
+                ==>Map(I) is declared Inside jav.util.package.
+
+                ==>It's the special purpose of interface where we can store the data in the form key and value.
+
+                ==>Map(I) is Having Following Implementations Classes::
+
+               
+                                  *)HashTable
+                                  *)LinkedHAshMap
+                                  *)Treemap
+                    
+
+15)What are the methods which can be used operate the map?
+
+
+
+                   Method 1::
+
+                         ==>This Method can be used to add new entry into map.
+
+                            put(object key,object value)
+
+                  Method 2::
+
+                         ==>This Method will check Whether the map Contains Specified key (or) Not Returns the boolean value.
+
+                             containskey(object key)
+
+                  Method 3::
+
+                        ==>This Method will check Whether the contains specified values (or) Not.
+
+                             contiansvalue(Object val)
+
+                 Method 4::
+
+                       ==>This Method Accepts the key and Returns the key.
+
+                              get(object key)
+
+                 Method 5::
+                         
+                       ==>This Method will be return set of all the key present inside the Map
+
+                               keyset()
+
+                Method 6::
+
+                       ==>This Method will return collection of all the values present Inside the.
+
+                               Values()
+
+               Method 7::
+                   
+                       ==>This Method will return set of all the key value pairs present Inside the map.
+
+                               entryset() 
+
+
+Note::-
+
+                  *)We can Store null values in key only one time
+                 
+                  *)But we can store null values in value use Multiple times.
+
+          
+            
+                  
