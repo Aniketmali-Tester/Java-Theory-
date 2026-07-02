@@ -1,0 +1,94 @@
+Abstraction in Java::-
+-----------------------
+
+1.What is an abstraction?
+
+
+      *)The process of hiding implementation of an object from it's Utilization is know as abstraction.
+ 
+      *)In order word abstraction means Hide object functionality and provide Interface media and  access object feature.
+
+            ==>Following are the steps to achieve abstraction:-
+
+                    *)Create an interface to generalization all the properties of an interface.
+ 
+                    *)Provide Implementation for object properties by using class.
+
+                    *)Create an object of subclass with References of interface to access object feature.
+
+
+
+2.Why Abstraction?
+    1. Improves Security
+    2. Reduces Complexity
+    3. Increases Code Reusability
+    4. Provides Better Maintainability
+
+
+
+3.How to Achieve Abstraction in Java?
+    
+    1. Abstract Class (0% to 100% Abstraction)
+    2. Interface (100% Abstraction)
+
+
+
+
+Real Time Examples:
+1. ATM Machine
+2. Mobile Phone
+3. Car Driving
+4. TV Remote
+5. Online Payment System
+
+
+
+---------------------------------------------------
+ATM MACHINE EXAMPLE
+---------------------------------------------------
+
+User Actions:
+1. Insert Card
+2. Enter PIN
+3. Withdraw Money
+
+Hidden Details:
+1. Bank Server Validation
+2. Account Verification
+3. Balance Checking
+4. Cash Processing
+
+User only sees the required operations.
+Internal implementation is hidden.
+
+                                                          ---------------------------------------------------
+                                                                     ABSTRACTION DIAGRAM
+                                                          ---------------------------------------------------
+
+                                                                            USER
+                                                                             |
+                                                                             v
+                                                                     ------------------
+                                                                    |    ATM SCREEN   |
+                                                                     ------------------
+                                                                             |
+                                                                      ----------------
+                                                                      | Abstraction |
+                                                                       ----------------
+                                                                            |
+                                                                            v
+                                                                     ------------------
+                                                                     | Internal Logic |
+                                                                     ------------------
+                                                                            |
+                                                                    ---------------------
+                                                                    | Database | Server |
+                                                                     ---------------------
+
+User can access only ATM options.
+Internal logic remains hidden.
+
+
+
+
+   
