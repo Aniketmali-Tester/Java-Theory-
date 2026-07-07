@@ -43,7 +43,7 @@ Ex::--Diagram Wrapper class::--
 
 Note::-
 
-     ==>There is No wrapper class for string Because .It's Already Present in the form of class.
+     ==>There is No wrapper class for String Because .It's Already Present in the form of class.
 
 
 
@@ -64,4 +64,51 @@ Note::-
                      ==>The process of converting Non-primitive Information Into Primitive Format is known as Autountboxing.
   
                      ==>In other words Autounboxing Means Converting object oriented Information Into Simple Format.
+
+
+
+3)what is Parising Technic?
+
+
+                     ==>ParisingTechnie Mainly used For Conversion of String Value.
+
+                     ==>By using ParisingTechices we can convert String value Into Primitive Datatypes And Primitive Value Into String Format.
+ 
+                     ==>Following are the methods to converts Into String value Into Primitive Format::
+
+   
+                                      -->Integer.ParseInteger()
+                                      -->Double.parseDouble()
+                                      -->Float.ParseFloat()
+                                      -->Long.ParseLong()
+                                      -->Short.ParseShort()
+                                      -->Boolean.ParseBoolean()
+                                      -->Byte.ParseByte()
+                                      
+
+Note::
+  
+                ==>We can't Convert String Value Directly Into Characters By using Wrapper class.
+
+         Syntax::-
+
+
+                     String s="A"//String
+                     s.charAt(0);//Convert String to char
+
+               ==>Following are the methods to convert primitive value Into String Format.
+
+                             Integer.tostring()
+                             char.tostring()
+                             Long.toString()
+                             Short.toString()
+                             Boolean.tostring()
+                             Byte.toString()
+                             Double.toString()
+                             float.toString()
+ 
+
+
+
+  
 
